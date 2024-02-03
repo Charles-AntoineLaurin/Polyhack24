@@ -14,6 +14,8 @@
 		D65BF4302B6EA9F900A00958 /* PolyFoodSOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF42F2B6EA9F900A00958 /* PolyFoodSOSTests.swift */; };
 		D65BF43A2B6EA9F900A00958 /* PolyFoodSOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF4392B6EA9F900A00958 /* PolyFoodSOSUITests.swift */; };
 		D65BF43C2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */; };
+		D6FE66442B6EE559006313E2 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66432B6EE559006313E2 /* HttpService.swift */; };
+		D6FE66462B6EE5ED006313E2 /* SpoonacularService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D65BF4352B6EA9F900A00958 /* PolyFoodSOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyFoodSOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65BF4392B6EA9F900A00958 /* PolyFoodSOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSUITests.swift; sourceTree = "<group>"; };
 		D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6FE66432B6EE559006313E2 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				D65BF4202B6EA9F700A00958 /* ContentView.swift */,
 				D65BF4222B6EA9F900A00958 /* Assets.xcassets */,
 				D65BF4242B6EA9F900A00958 /* Preview Content */,
+				D6FE66432B6EE559006313E2 /* HttpService.swift */,
+				D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */,
 			);
 			path = PolyFoodSOS;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */,
 				D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */,
+				D6FE66442B6EE559006313E2 /* HttpService.swift in Sources */,
+				D6FE66462B6EE5ED006313E2 /* SpoonacularService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
