@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF41E2B6EA9F700A00958 /* PolyFoodSOSApp.swift */; };
+		D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF4202B6EA9F700A00958 /* ContentView.swift */; };
+		D65BF4232B6EA9F900A00958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65BF4222B6EA9F900A00958 /* Assets.xcassets */; };
+		D65BF4262B6EA9F900A00958 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65BF4252B6EA9F900A00958 /* Preview Assets.xcassets */; };
+		D65BF4302B6EA9F900A00958 /* PolyFoodSOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF42F2B6EA9F900A00958 /* PolyFoodSOSTests.swift */; };
+		D65BF43A2B6EA9F900A00958 /* PolyFoodSOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF4392B6EA9F900A00958 /* PolyFoodSOSUITests.swift */; };
+		D65BF43C2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65BF42C2B6EA9F900A00958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65BF4132B6EA9F700A00958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65BF41A2B6EA9F700A00958;
+			remoteInfo = PolyFoodSOS;
+		};
+		D65BF4362B6EA9F900A00958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65BF4132B6EA9F700A00958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65BF41A2B6EA9F700A00958;
+			remoteInfo = PolyFoodSOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D65BF41B2B6EA9F700A00958 /* PolyFoodSOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyFoodSOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65BF41E2B6EA9F700A00958 /* PolyFoodSOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSApp.swift; sourceTree = "<group>"; };
+		D65BF4202B6EA9F700A00958 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D65BF4222B6EA9F900A00958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D65BF4252B6EA9F900A00958 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D65BF42B2B6EA9F900A00958 /* PolyFoodSOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyFoodSOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65BF42F2B6EA9F900A00958 /* PolyFoodSOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSTests.swift; sourceTree = "<group>"; };
+		D65BF4352B6EA9F900A00958 /* PolyFoodSOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyFoodSOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65BF4392B6EA9F900A00958 /* PolyFoodSOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSUITests.swift; sourceTree = "<group>"; };
+		D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65BF4182B6EA9F700A00958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4282B6EA9F900A00958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4322B6EA9F900A00958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65BF4122B6EA9F700A00958 = {
+			isa = PBXGroup;
+			children = (
+				D65BF41D2B6EA9F700A00958 /* PolyFoodSOS */,
+				D65BF42E2B6EA9F900A00958 /* PolyFoodSOSTests */,
+				D65BF4382B6EA9F900A00958 /* PolyFoodSOSUITests */,
+				D65BF41C2B6EA9F700A00958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65BF41C2B6EA9F700A00958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF41B2B6EA9F700A00958 /* PolyFoodSOS.app */,
+				D65BF42B2B6EA9F900A00958 /* PolyFoodSOSTests.xctest */,
+				D65BF4352B6EA9F900A00958 /* PolyFoodSOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65BF41D2B6EA9F700A00958 /* PolyFoodSOS */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF41E2B6EA9F700A00958 /* PolyFoodSOSApp.swift */,
+				D65BF4202B6EA9F700A00958 /* ContentView.swift */,
+				D65BF4222B6EA9F900A00958 /* Assets.xcassets */,
+				D65BF4242B6EA9F900A00958 /* Preview Content */,
+			);
+			path = PolyFoodSOS;
+			sourceTree = "<group>";
+		};
+		D65BF4242B6EA9F900A00958 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF4252B6EA9F900A00958 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D65BF42E2B6EA9F900A00958 /* PolyFoodSOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF42F2B6EA9F900A00958 /* PolyFoodSOSTests.swift */,
+			);
+			path = PolyFoodSOSTests;
+			sourceTree = "<group>";
+		};
+		D65BF4382B6EA9F900A00958 /* PolyFoodSOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D65BF4392B6EA9F900A00958 /* PolyFoodSOSUITests.swift */,
+				D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */,
+			);
+			path = PolyFoodSOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65BF41A2B6EA9F700A00958 /* PolyFoodSOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65BF43F2B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOS" */;
+			buildPhases = (
+				D65BF4172B6EA9F700A00958 /* Sources */,
+				D65BF4182B6EA9F700A00958 /* Frameworks */,
+				D65BF4192B6EA9F700A00958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolyFoodSOS;
+			productName = PolyFoodSOS;
+			productReference = D65BF41B2B6EA9F700A00958 /* PolyFoodSOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65BF42A2B6EA9F900A00958 /* PolyFoodSOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65BF4422B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOSTests" */;
+			buildPhases = (
+				D65BF4272B6EA9F900A00958 /* Sources */,
+				D65BF4282B6EA9F900A00958 /* Frameworks */,
+				D65BF4292B6EA9F900A00958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65BF42D2B6EA9F900A00958 /* PBXTargetDependency */,
+			);
+			name = PolyFoodSOSTests;
+			productName = PolyFoodSOSTests;
+			productReference = D65BF42B2B6EA9F900A00958 /* PolyFoodSOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D65BF4342B6EA9F900A00958 /* PolyFoodSOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65BF4452B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOSUITests" */;
+			buildPhases = (
+				D65BF4312B6EA9F900A00958 /* Sources */,
+				D65BF4322B6EA9F900A00958 /* Frameworks */,
+				D65BF4332B6EA9F900A00958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65BF4372B6EA9F900A00958 /* PBXTargetDependency */,
+			);
+			name = PolyFoodSOSUITests;
+			productName = PolyFoodSOSUITests;
+			productReference = D65BF4352B6EA9F900A00958 /* PolyFoodSOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65BF4132B6EA9F700A00958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D65BF41A2B6EA9F700A00958 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D65BF42A2B6EA9F900A00958 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D65BF41A2B6EA9F700A00958;
+					};
+					D65BF4342B6EA9F900A00958 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D65BF41A2B6EA9F700A00958;
+					};
+				};
+			};
+			buildConfigurationList = D65BF4162B6EA9F700A00958 /* Build configuration list for PBXProject "PolyFoodSOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65BF4122B6EA9F700A00958;
+			productRefGroup = D65BF41C2B6EA9F700A00958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65BF41A2B6EA9F700A00958 /* PolyFoodSOS */,
+				D65BF42A2B6EA9F900A00958 /* PolyFoodSOSTests */,
+				D65BF4342B6EA9F900A00958 /* PolyFoodSOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65BF4192B6EA9F700A00958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BF4262B6EA9F900A00958 /* Preview Assets.xcassets in Resources */,
+				D65BF4232B6EA9F900A00958 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4292B6EA9F900A00958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4332B6EA9F900A00958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65BF4172B6EA9F700A00958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */,
+				D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4272B6EA9F900A00958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BF4302B6EA9F900A00958 /* PolyFoodSOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65BF4312B6EA9F900A00958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65BF43C2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift in Sources */,
+				D65BF43A2B6EA9F900A00958 /* PolyFoodSOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65BF42D2B6EA9F900A00958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65BF41A2B6EA9F700A00958 /* PolyFoodSOS */;
+			targetProxy = D65BF42C2B6EA9F900A00958 /* PBXContainerItemProxy */;
+		};
+		D65BF4372B6EA9F900A00958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65BF41A2B6EA9F700A00958 /* PolyFoodSOS */;
+			targetProxy = D65BF4362B6EA9F900A00958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D65BF43D2B6EA9F900A00958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65BF43E2B6EA9F900A00958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65BF4402B6EA9F900A00958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65BF4412B6EA9F900A00958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D65BF4432B6EA9F900A00958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyFoodSOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PolyFoodSOS";
+			};
+			name = Debug;
+		};
+		D65BF4442B6EA9F900A00958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyFoodSOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PolyFoodSOS";
+			};
+			name = Release;
+		};
+		D65BF4462B6EA9F900A00958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolyFoodSOS;
+			};
+			name = Debug;
+		};
+		D65BF4472B6EA9F900A00958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolyFoodSOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65BF4162B6EA9F700A00958 /* Build configuration list for PBXProject "PolyFoodSOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65BF43D2B6EA9F900A00958 /* Debug */,
+				D65BF43E2B6EA9F900A00958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65BF43F2B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65BF4402B6EA9F900A00958 /* Debug */,
+				D65BF4412B6EA9F900A00958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65BF4422B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65BF4432B6EA9F900A00958 /* Debug */,
+				D65BF4442B6EA9F900A00958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65BF4452B6EA9F900A00958 /* Build configuration list for PBXNativeTarget "PolyFoodSOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65BF4462B6EA9F900A00958 /* Debug */,
+				D65BF4472B6EA9F900A00958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65BF4132B6EA9F700A00958 /* Project object */;
+}
