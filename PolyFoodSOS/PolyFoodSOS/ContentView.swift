@@ -71,7 +71,6 @@ struct SignInView: View {
                 showHomePage = true
             })
         }.padding()
-            .navigationBarBackButtonHidden()
             .navigationDestination(isPresented: $showHomePage){
                 HomeView()
             }
@@ -84,19 +83,19 @@ struct SignUpView: View {
     @State private var confirmedPassword = ""
     @State private var navigateToInventory = false
     var body: some View {
-        NavigationStack {
-            VStack {
-                TextField("Email", text: $email).padding()
-                SecureField("Password", text: $password).padding()
-                SecureField("Confirm your password", text: $confirmedPassword).padding()
-                Button("Sign Up", action: {
-                    navigateToInventory = true
-                })
-            }.padding()
-                .navigationDestination(isPresented: $navigateToInventory) {
-                    InventoryView()
-                }
-        }
+        VStack {
+            TextField("Email", text: $email).padding()
+            SecureField("Password", text: $password).padding()
+            SecureField("Confirm your password", text: $confirmedPassword).padding()
+            Button("Sign Up", action: {
+                navigateToInventory = true
+            })
+        
+        }.padding()
+            .navigationDestination(isPresented: $navigateToInventory) {
+                InventoryView()
+            }
+        
     }
 }
 

@@ -21,6 +21,7 @@
 		D6FE66442B6EE559006313E2 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66432B6EE559006313E2 /* HttpService.swift */; };
 		D6FE66462B6EE5ED006313E2 /* SpoonacularService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */; };
 		D6FE66482B6F1EEE006313E2 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66472B6F1EEE006313E2 /* InventoryView.swift */; };
+		D6FE664A2B6F3DF6006313E2 /* InventoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66492B6F3DF6006313E2 /* InventoryService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D6FE66432B6EE559006313E2 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularService.swift; sourceTree = "<group>"; };
 		D6FE66472B6F1EEE006313E2 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		D6FE66492B6F3DF6006313E2 /* InventoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				D6FE66432B6EE559006313E2 /* HttpService.swift */,
 				D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */,
 				D6FE66472B6F1EEE006313E2 /* InventoryView.swift */,
+				D6FE66492B6F3DF6006313E2 /* InventoryService.swift */,
 			);
 			path = PolyFoodSOS;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FE664A2B6F3DF6006313E2 /* InventoryService.swift in Sources */,
 				950B1E3A2B6EE5FE0073CA55 /* HomeView.swift in Sources */,
 				950B1E412B6EF9B30073CA55 /* ListeRecetteView.swift in Sources */,
 				D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */,
