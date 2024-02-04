@@ -50,7 +50,7 @@ struct ListeRecetteView: View {
                     Text(item.title)
                 }
             }
-        }.navigationBarBackButtonHidden()
+        }
         .onAppear(perform: loadData)
     }
 

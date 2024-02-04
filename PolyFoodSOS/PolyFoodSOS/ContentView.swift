@@ -82,15 +82,21 @@ struct SignUpView: View {
     @State private var email = ""
     @State private var password = ""
     @State private var confirmedPassword = ""
+    @State private var navigateToInventory = false
     var body: some View {
-        VStack {
-            TextField("Email", text: $email).padding()
-            SecureField("Password", text: $password).padding()
-            SecureField("Confirm your password", text: $confirmedPassword).padding()
-            Button("Sign In", action: {
-                SpoonacularService.shared.autoComplete(input: "appl")
-            })
-        }.padding()
+        NavigationStack {
+            VStack {
+                TextField("Email", text: $email).padding()
+                SecureField("Password", text: $password).padding()
+                SecureField("Confirm your password", text: $confirmedPassword).padding()
+                Button("Sign Up", action: {
+                    navigateToInventory = true
+                })
+            }.padding()
+                .navigationDestination(isPresented: $navigateToInventory) {
+                    InventoryView()
+                }
+        }
     }
 }
 

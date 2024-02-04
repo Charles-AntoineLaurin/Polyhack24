@@ -20,6 +20,7 @@
 		D65BF43C2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */; };
 		D6FE66442B6EE559006313E2 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66432B6EE559006313E2 /* HttpService.swift */; };
 		D6FE66462B6EE5ED006313E2 /* SpoonacularService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */; };
+		D6FE66482B6F1EEE006313E2 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FE66472B6F1EEE006313E2 /* InventoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D65BF43B2B6EA9F900A00958 /* PolyFoodSOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6FE66432B6EE559006313E2 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularService.swift; sourceTree = "<group>"; };
+		D6FE66472B6F1EEE006313E2 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				950B1E402B6EF9B30073CA55 /* ListeRecetteView.swift */,
 				D6FE66432B6EE559006313E2 /* HttpService.swift */,
 				D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */,
+				D6FE66472B6F1EEE006313E2 /* InventoryView.swift */,
 			);
 			path = PolyFoodSOS;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				950B1E412B6EF9B30073CA55 /* ListeRecetteView.swift in Sources */,
 				D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */,
 				D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */,
+				D6FE66482B6F1EEE006313E2 /* InventoryView.swift in Sources */,
 				D6FE66442B6EE559006313E2 /* HttpService.swift in Sources */,
 				D6FE66462B6EE5ED006313E2 /* SpoonacularService.swift in Sources */,
 			);
@@ -449,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
-				DEVELOPMENT_TEAM = D4GVTCW22W;
+				DEVELOPMENT_TEAM = RCU7M64H2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.ca.PolyFoodSOS;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,7 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
-				DEVELOPMENT_TEAM = D4GVTCW22W;
+				DEVELOPMENT_TEAM = RCU7M64H2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -491,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.ca.PolyFoodSOS;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
