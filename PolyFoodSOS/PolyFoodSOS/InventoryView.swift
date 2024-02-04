@@ -22,10 +22,9 @@ struct InventoryView: View {
                     ingredient = ""
                 }).padding()
             }
-            
-            
+            Text("Ingredients :")
             ForEach(ingredientList, id: \.self) { item in
-                Text(item).font(Font.system(size: 20))
+                Text(item)
             }
             Spacer()
             
