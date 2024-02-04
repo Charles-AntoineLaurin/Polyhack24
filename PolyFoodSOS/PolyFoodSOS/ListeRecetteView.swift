@@ -41,6 +41,7 @@ struct ImageView: View {
 struct ListeRecetteView: View {
     @State private var showDetail: Bool = false
     @State private var data: [Recipe] = []
+    @ObservedObject var inventoryService: InventoryService = InventoryService.shared
 
     var body: some View {
         List(data, id: \.id) { item in
@@ -55,7 +56,10 @@ struct ListeRecetteView: View {
     }
 
         func loadData() {
-            guard let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?diet=Gluten Free&apiKey=41060f320bce43e58f5908ffca8dde76") else {
+            let copiedArray: [String] = InventoryService.shared.getIngredientList()
+            let joinedString: String = copiedArray.joined(separator:",")
+            
+            guard let url = URL(string: "https://api.spoonacular.com/recipes/complexSearch?includeIngredients=\(joinedString)/&apiKey=41060f320bce43e58f5908ffca8dde76") else {
                 return
             }
 
@@ -157,7 +161,7 @@ struct RecipeView: View {
     
     
     var body: some View {
-        VStack {
+        List {
             if let data = recipeDetails.data{
                 VStack{
                     Text(data.title).font(.title)
@@ -166,7 +170,9 @@ struct RecipeView: View {
                     let text = data.summary
                     let replaced = text.replacingOccurrences(of: "<b>", with: " ")
                     let new_replaced = replaced.replacingOccurrences(of: "</b>", with: " ")
-                    Text(new_replaced)
+                    
+                    let split = new_replaced.components(separatedBy: "If you like")
+                    Text(split[0])
                     
                     Text("Ingredients: ")
                         .font(.subheadline)

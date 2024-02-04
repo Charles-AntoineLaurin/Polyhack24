@@ -8,6 +8,9 @@
 import Foundation
 
 class HttpService {
+    
+    
+    
     static let shared = HttpService()
     private init() {}
     

@@ -11,6 +11,7 @@
 		950B1E3D2B6EF2C00073CA55 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 950B1E3C2B6EF2C00073CA55 /* URLImage */; };
 		950B1E3F2B6EF2C00073CA55 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 950B1E3E2B6EF2C00073CA55 /* URLImageStore */; };
 		950B1E412B6EF9B30073CA55 /* ListeRecetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950B1E402B6EF9B30073CA55 /* ListeRecetteView.swift */; };
+		9549262B2B6F88E30008A5A4 /* ModifyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9549262A2B6F88E30008A5A4 /* ModifyListView.swift */; };
 		D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF41E2B6EA9F700A00958 /* PolyFoodSOSApp.swift */; };
 		D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BF4202B6EA9F700A00958 /* ContentView.swift */; };
 		D65BF4232B6EA9F900A00958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65BF4222B6EA9F900A00958 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		950B1E392B6EE5FE0073CA55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		950B1E402B6EF9B30073CA55 /* ListeRecetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRecetteView.swift; sourceTree = "<group>"; };
+		9549262A2B6F88E30008A5A4 /* ModifyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyListView.swift; sourceTree = "<group>"; };
 		D65BF41B2B6EA9F700A00958 /* PolyFoodSOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyFoodSOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65BF41E2B6EA9F700A00958 /* PolyFoodSOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyFoodSOSApp.swift; sourceTree = "<group>"; };
 		D65BF4202B6EA9F700A00958 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				D6FE66452B6EE5ED006313E2 /* SpoonacularService.swift */,
 				D6FE66472B6F1EEE006313E2 /* InventoryView.swift */,
 				D6FE66492B6F3DF6006313E2 /* InventoryService.swift */,
+				9549262A2B6F88E30008A5A4 /* ModifyListView.swift */,
 			);
 			path = PolyFoodSOS;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				D6FE664A2B6F3DF6006313E2 /* InventoryService.swift in Sources */,
 				950B1E3A2B6EE5FE0073CA55 /* HomeView.swift in Sources */,
 				950B1E412B6EF9B30073CA55 /* ListeRecetteView.swift in Sources */,
+				9549262B2B6F88E30008A5A4 /* ModifyListView.swift in Sources */,
 				D65BF4212B6EA9F700A00958 /* ContentView.swift in Sources */,
 				D65BF41F2B6EA9F700A00958 /* PolyFoodSOSApp.swift in Sources */,
 				D6FE66482B6F1EEE006313E2 /* InventoryView.swift in Sources */,
@@ -457,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
-				DEVELOPMENT_TEAM = RCU7M64H2Q;
+				DEVELOPMENT_TEAM = D4GVTCW22W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.com.PolyFoodSOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PolyFoodSOS/Preview Content\"";
-				DEVELOPMENT_TEAM = RCU7M64H2Q;
+				DEVELOPMENT_TEAM = D4GVTCW22W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -499,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.PolyFoodSOS;
+				PRODUCT_BUNDLE_IDENTIFIER = PolyHx.com.PolyFoodSOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

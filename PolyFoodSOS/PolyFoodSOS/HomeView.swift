@@ -13,7 +13,22 @@ import URLImage
 
 struct HomeView: View {
     var body: some View {
-        ListeRecetteView()
+        VStack{
+            NavigationLink(destination: ListeRecetteView()) {
+                                Text("Liste de recette")
+                                    .padding()
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+            }
+            NavigationLink(destination: InventoryView()) {
+                                Text("Inventaire")
+                                    .padding()
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+            }
+        }
     }
 }
 

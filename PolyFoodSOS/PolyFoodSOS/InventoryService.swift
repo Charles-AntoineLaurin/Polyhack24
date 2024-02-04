@@ -18,4 +18,7 @@ class InventoryService: ObservableObject {
     public func getIngredientList() -> [String] {
         return ingredientList
     }
+    public func removeIngredient(index: Int)-> Void {
+        ingredientList.remove(at: index)
+    }
 }
