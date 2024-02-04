@@ -87,7 +87,9 @@ struct SignUpView: View {
             TextField("Email", text: $email).padding()
             SecureField("Password", text: $password).padding()
             SecureField("Confirm your password", text: $confirmedPassword).padding()
-            Button("Sign In", action: {})
+            Button("Sign In", action: {
+                SpoonacularService.shared.autoComplete(input: "appl")
+            })
         }.padding()
     }
 }
