@@ -59,6 +59,7 @@ struct LoginOptionView: View {
     }
 }
 struct SignInView: View {
+    @State private var showHomePage = false
     @State private var email = ""
     @State private var password = ""
     var body: some View {
@@ -66,8 +67,14 @@ struct SignInView: View {
             TextField("Email", text: $email).padding()
             SecureField("Password", text: $password).padding()
             
-            Button("Sign In", action: {})
+            Button("Sign In", action: {
+                showHomePage = true
+            })
         }.padding()
+            .navigationBarBackButtonHidden()
+            .navigationDestination(isPresented: $showHomePage){
+                HomeView()
+            }
     }
 }
 
